@@ -25,7 +25,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.kodilla.tictactoe'
-    mainClass = 'com.kodilla.tictactoe.HelloApplication'
+    mainClass = 'com.kodilla.tictactoe.TicTacToe'
 }
 
 javafx {

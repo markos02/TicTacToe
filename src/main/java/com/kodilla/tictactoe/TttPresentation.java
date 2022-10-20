@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class TttPresentation {
 
-    private final Scanner scanner = new Scanner(System.in);
-    Player player1 = null;
-    Player player2 = null;
+    private static final Scanner scanner = new Scanner(System.in);
+    static Player player1 = null;
+    static Player player2 = null;
 
     public void start() {
 
@@ -119,7 +119,7 @@ public class TttPresentation {
     }
 
 
-    private boolean setPlayers(int gameMode) {
+    private static boolean setPlayers(int gameMode) {
 
         if (gameMode == 1) {
             System.out.print("Players name: ");
